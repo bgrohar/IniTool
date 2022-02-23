@@ -1,0 +1,20 @@
+H:\VisualStudio_Projects\IniTool\IniTool\bin\Debug\IniTool.exe.config
+H:\VisualStudio_Projects\IniTool\IniTool\bin\Debug\IniTool.exe
+H:\VisualStudio_Projects\IniTool\IniTool\bin\Debug\IniTool.pdb
+H:\VisualStudio_Projects\IniTool\IniTool\obj\Debug\IniTool.csprojAssemblyReference.cache
+H:\VisualStudio_Projects\IniTool\IniTool\obj\Debug\IniTool.Properties.Resources.resources
+H:\VisualStudio_Projects\IniTool\IniTool\obj\Debug\IniTool.csproj.GenerateResource.cache
+H:\VisualStudio_Projects\IniTool\IniTool\obj\Debug\IniTool.csproj.CoreCompileInputs.cache
+H:\VisualStudio_Projects\IniTool\IniTool\obj\Debug\IniTool.exe
+H:\VisualStudio_Projects\IniTool\IniTool\obj\Debug\IniTool.pdb
+H:\VisualStudio_Projects\IniTool\IniTool\obj\Debug\IniTool.IniTool.resources
+F:\Visual Studio Projects\IniTool\IniTool\bin\Debug\IniTool.exe.config
+F:\Visual Studio Projects\IniTool\IniTool\bin\Debug\IniTool.exe
+F:\Visual Studio Projects\IniTool\IniTool\bin\Debug\IniTool.pdb
+F:\Visual Studio Projects\IniTool\IniTool\obj\Debug\IniTool.csproj.AssemblyReference.cache
+F:\Visual Studio Projects\IniTool\IniTool\obj\Debug\IniTool.IniTool.resources
+F:\Visual Studio Projects\IniTool\IniTool\obj\Debug\IniTool.Properties.Resources.resources
+F:\Visual Studio Projects\IniTool\IniTool\obj\Debug\IniTool.csproj.GenerateResource.cache
+F:\Visual Studio Projects\IniTool\IniTool\obj\Debug\IniTool.csproj.CoreCompileInputs.cache
+F:\Visual Studio Projects\IniTool\IniTool\obj\Debug\IniTool.exe
+F:\Visual Studio Projects\IniTool\IniTool\obj\Debug\IniTool.pdb
