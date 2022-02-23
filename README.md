@@ -1,5 +1,5 @@
 # IniTool
- Sorting tool for Bethesda's .ini and plugin files.
+ Sorting tool for Bethesda's .ini and plugin files. WIP.
 
 ![plot](./sample.png)
 
