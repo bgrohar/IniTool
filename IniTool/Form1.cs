@@ -1,21 +1,6 @@
 ﻿/* 
  *  IniTool - for Bethesda's .ini config files
- *  Supports:
- *      - Skyrim
- *      - Skyrim SE
- *      - Fallout 4
- *  
- *  Expected file structure:
- *      [IniToolDirectory] 
- *              -> IniToolShortcut.exe
- *              -> Backups
- *              -> Resources
- *                  -> "SkyrimMASTER.ini"
- *                  -> ...
  *
- * DO TO:
- * - measure execution time
- * 
  */
 using System;
 using System.IO;
@@ -170,16 +155,6 @@ namespace IniTool
             highestPercentageReached = 0;
             percentComplete = 0;
             isRunning = false;
-
-            // SORT vars
-            //masterFilePath = "";
-            //unsortedFilePath = "";
-            //unsortedFileLines = null;
-            //masterFileLines = null;
-            //sortedLines = null;
-            //fileSelection = new List<string>();
-            //OpenFileButton1.Text = "Open...";
-
 
             // IDENT vars
             UpdateSelectionBox(SelectionBox1);
@@ -336,18 +311,6 @@ namespace IniTool
             }
             else { Panel4.Hide(); }
         }
-
-        // SORT
-        // alphasort, mastersort
-
-        // INTERSECT - identical lines
-        // List.Intersect, remove [title] lines
-
-        // COMMON SETTINGS
-        // A and B, setting=(a,b)
-
-        // Difference - NON-COMMON SETTINGS
-        // all - (common settings)
 
         public void dumpToFile(List<string> items, string filename)
         {
@@ -1065,12 +1028,6 @@ namespace IniTool
             SelectionBox1.Enabled = true;
             DropdownBox1.Enabled = true;
 
-            //Console.WriteLine("-> Deleting bgWorker1 events...");
-            //backgroundWorker1.DoWork -= new DoWorkEventHandler(this.backgroundWorker1_DoWork);
-            //backgroundWorker1.ProgressChanged -= new ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
-            //backgroundWorker1.RunWorkerCompleted -= new RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
-            //backgroundWorker1.Dispose();
-
             ToggleSORT(true);
         }
 
@@ -1284,15 +1241,6 @@ namespace IniTool
                 var myData = new MyDataObject();
                 myData.unsortedlines = new List<string>(unsortedFileLines);
                 myData.masterlines = new List<string>(masterFileLines);
-
-                /* EXPERIMENTAL
-                backgroundWorker1 = new BackgroundWorker();
-                backgroundWorker1.WorkerReportsProgress = true;
-                backgroundWorker1.WorkerSupportsCancellation = true;
-                backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
-                backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
-                backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
-                EXPERIMENTAL  */ 
 
                 backgroundWorker1.RunWorkerAsync(myData);
                 ProgressBar1.Visible = true;
