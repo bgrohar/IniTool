@@ -7,5 +7,5 @@
 # Prerequisites:
 - Place master files inside the "Resources" folder before running the program.
 
-# Modes and what they do:
+# Modes:
 	SORT - sorts selected file according to a master file
